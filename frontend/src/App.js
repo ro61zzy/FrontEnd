@@ -1,12 +1,17 @@
 import './App.css';
-import Hookstate from './Components/Hookstate';
+import Useeffect from './Components/Useeffect';
+// import Hookstate from './Components/Hookstate';
+// import Usestate from './Components/Usestate';
+
 
 function App() {
 
 
   return (
     <div className="App">
-      <Hookstate />
+      {/* <Hookstate /> */}
+      {/* <Usestate /> */}
+      <Useeffect />
     </div>
   );
 }
